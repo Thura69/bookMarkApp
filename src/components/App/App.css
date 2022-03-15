@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style:none;
+    transition: all 0.2s;
+    
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-size: 90%;
+}
+
+:root{
+   --bg-white:white;
+   --bg-color-primary: hsl(231, 69%, 60%);
+   --bg-color-red: hsl(0, 94%, 66%);
+   --bg-color-darkBlue:hsl(226, 41%, 14%);
+   --bd-color-softBlue: hsl(229, 8%, 60%);
+   --w-400:400;
+   --w-500:500;
+   --header-padding:2rem;
+   --header-height:5rem;
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin:0 auto;
+    padding:0 var(--header-padding)
+}
+.section{
+    padding:1.8rem 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* Media Queries */
+@media (min-width: 400px) {
+body{
+    font-size:100%;
+}
+}
+/* / Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .header-part__nav{
+        display:initial;
+        }
+    .header__toggle{
+        display: none;
+    }
+   
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }

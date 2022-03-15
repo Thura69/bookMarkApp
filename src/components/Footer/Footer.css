@@ -1,0 +1,131 @@
+.footer__description{
+    text-align: center;
+    line-height:3rem;
+    padding: 1rem 0.3rem;
+    color:white;
+    font-size: 80%;
+}
+.footer__description p{
+    letter-spacing:0.5rem;
+
+}
+
+footer{
+    background-color: var(--bg-color-primary);
+    margin-top: 5rem;
+}
+.footer__login{
+    margin-top: 3rem;
+}
+.footer__login form{
+   display: flex;
+   flex-direction: column;
+   padding:0 4rem;
+   row-gap: 1rem;
+
+}
+.footer__login input{
+ padding:0.8rem 1.5rem;
+ border-radius: 0.3rem;
+ outline: none;
+ border:none;
+ color:var(--bg-color-primary);
+ font-size: 16px;
+}
+.footer__login button{
+    border:1px solid black;
+    padding:0.8rem 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    background-color: var(--bg-color-red);
+    color:white;
+}
+.footer__login button:hover{
+    background-color: white;
+    border:1px solid var(--bg-color-red);
+    color:var(--bg-color-red);
+}
+
+.footer__nav{
+    background-color: var(--bg-color-darkBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    padding:2rem 0;
+}
+.footer__nav ul{
+    display: flex;
+    column-gap: 2rem;
+    color:white;
+    flex-direction: column;
+    padding:3rem 0;
+    row-gap: 3rem;
+    text-align: center;
+}
+.footer__nav ul li{
+    cursor: pointer;
+}
+.footer__nav ul li:hover{
+    color:var(--bg-color-red)
+}
+
+.footer__social{
+    display: flex;
+    justify-content: center;
+    column-gap:1.5rem;
+}
+.footer__social img{
+    cursor: pointer;
+}
+.footer__part{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 4rem;
+}
+
+/* Media Queries */
+@media (min-width: 400px) {
+    }
+    /* / Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+        .footer__description{
+            font-size: 100%;
+            line-height: 5rem;
+           
+        }
+        .footer__login form{
+            display: flex;
+            flex-direction: row;
+            padding:0 4rem;
+            row-gap: 1rem;
+            align-items: center;
+            column-gap: 1rem;
+            justify-content: center;
+         }
+         .footer__nav{
+             flex-direction: row;
+         }
+        .footer__part{
+            flex-direction:row;
+        }
+        .footer__nav ul{
+            flex-direction: row;
+            padding:0;
+        }
+
+     }
+    
+    /* // Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) { 
+     
+    }
+    
+    /* // Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {  }
+    
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {  }

@@ -1,0 +1,56 @@
+.Feature{
+    text-align: center;
+}
+.Feature__description{
+    padding:2rem;
+    max-width:500px;
+    margin:0 auto;
+}
+.Feature__header{
+    margin-bottom: 2rem;
+}
+.Feature__slide{
+    width:70%;
+    margin:1rem auto;
+}
+.Feature__slide__item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Feature__slide__links{
+   border-bottom: 1px solid gray;
+    padding:20px 20px;
+}
+.Feature__slide__links a{
+    padding:20px;
+    cursor: pointer;
+    
+}
+.Feature__slide__links a.active{
+    border-bottom:3px solid var(--bg-color-red);     
+ }
+
+
+ @media (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .Feature__slide__item{
+        display: flex;
+        justify-content: center;
+        flex-direction:row;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+ 
+}
