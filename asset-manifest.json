@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/bookMarkApp/static/css/main.9571db33.css",
+    "main.js": "/bookMarkApp/static/js/main.beb5321d.js",
+    "static/media/illustration-features-tab-3.svg": "/bookMarkApp/static/media/illustration-features-tab-3.a4206aab7946773b29b702492d2d014b.svg",
+    "static/media/illustration-features-tab-2.svg": "/bookMarkApp/static/media/illustration-features-tab-2.e933bd6d921c537d7743e08ea4ec488e.svg",
+    "static/media/illustration-hero.svg": "/bookMarkApp/static/media/illustration-hero.07801d05cb11930f0c826add8c05ce22.svg",
+    "static/media/logo-bookmark.svg": "/bookMarkApp/static/media/logo-bookmark.d426263a94701e122e7d14b0c6eee7ce.svg",
+    "static/media/illustration-features-tab-1.svg": "/bookMarkApp/static/media/illustration-features-tab-1.0da3d302207bcad90cdadc5052e35ed6.svg",
+    "static/media/logo-chrome.svg": "/bookMarkApp/static/media/logo-chrome.a42815a014c452e4d95851f7a8daf95b.svg",
+    "static/media/logo-firefox.svg": "/bookMarkApp/static/media/logo-firefox.a9e6ca53e8cfd641e556b7afb1f0085f.svg",
+    "index.html": "/bookMarkApp/index.html",
+    "static/media/bg-dots.svg": "/bookMarkApp/static/media/bg-dots.90f0b46cec8b5f7cfd12393cb5f391a7.svg",
+    "static/media/icon-twitter.svg": "/bookMarkApp/static/media/icon-twitter.dde79e7edd3892319de2ee22ea7ca39d.svg",
+    "static/media/icon-facebook.svg": "/bookMarkApp/static/media/icon-facebook.8b45ba94b5f75f0d38a9bbcc11df55c2.svg",
+    "static/media/logo-opera.svg": "/bookMarkApp/static/media/logo-opera.ff14e4763945338fe002017c72e7e597.svg",
+    "main.9571db33.css.map": "/bookMarkApp/static/css/main.9571db33.css.map",
+    "main.beb5321d.js.map": "/bookMarkApp/static/js/main.beb5321d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9571db33.css",
+    "static/js/main.beb5321d.js"
+  ]
+}
